@@ -210,7 +210,7 @@ object Dependencies {
   val shapeless = "com.chuusai" %% "shapeless" % "2.3.3" withSources() withJavadoc()
   val parboiled = "org.parboiled" %% "parboiled" % "2.1.4"
   val inflector = "org.atteo" % "evo-inflector" % "1.2.2"
-  val squants = "org.typelevel"  %% "squants"  % "1.6.0"
+  val squants = "org.typelevel"  %% "squants"  % "1.8.2"
   val lang = "org.apache.commons" % "commons-lang3" % "3.5"
   val codec = "commons-codec" % "commons-codec" % "1.14"
   val math3 = "org.apache.commons" % "commons-math3" % "3.6.1" withSources() withJavadoc()
