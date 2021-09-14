@@ -68,7 +68,7 @@ object BuildSettings {
   lazy val defaultSettings = Defaults.coreDefaultSettings ++ /*Format.settings ++*/ Seq(
     version := VERSION,
     licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
-    crossScalaVersions := Seq( "2.12.7" ),
+    crossScalaVersions := Seq( "2.12.15" ),
     scalaVersion := crossScalaVersions{ (vs: Seq[String]) => vs.head }.value,
     // updateOptions := updateOptions.value.withCachedResolution(true),
     scalacOptions ++= scalacBuildOptions,
