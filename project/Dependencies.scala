@@ -112,7 +112,7 @@ object Dependencies {
   object monix extends SimpleModule {
     override val groupId = "io.monix"
     override val artifactIdRoot = "monix"
-    override val version = "2.3.3"
+    override val version = "3.4.0"
 
     val core = module( "" )
     val cats = module( "cats" )
