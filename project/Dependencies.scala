@@ -267,7 +267,7 @@ object Dependencies {
     object mockito extends SimpleModule {
       override val groupId = "org.mockito"
       override val artifactIdRoot = "mockito"
-      override val version = "2.23.0"
+      override val version = "2.23.4"
       override val isScala = false
       val core = module( "core" ) withSources() withJavadoc()
     }
