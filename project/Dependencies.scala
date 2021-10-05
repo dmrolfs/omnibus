@@ -170,7 +170,7 @@ object Dependencies {
     object scala extends SimpleModule {
       override val groupId: String = "nl.grons"
       override val artifactIdRoot: String = "metrics4"
-      override def version: String = "4.0.1"
+      override def version: String = "4.0.8"
 
       def all = Seq( core, akka, hdr )
       val core = module( "scala" )
