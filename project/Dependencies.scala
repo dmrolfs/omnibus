@@ -86,7 +86,7 @@ object Dependencies {
   object lagom extends SimpleModule {
     override def groupId: String = "com.lightbend.lagom"
     override def artifactIdRoot: String = "lagom-scaladsl"
-    override def version: String = "1.4.8"
+    override def version: String = "1.4.15"
     def all = Seq( server )
     val server = module( "server" )
   }
