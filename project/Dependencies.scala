@@ -240,7 +240,7 @@ object Dependencies {
   object circe extends SimpleModule {
     override val groupId: String = "io.circe"
     override val artifactIdRoot: String = "circe"
-    override val version: String = "0.10.1"
+    override val version: String = "0.14.1"
     def all = Seq( core, generic, parser )
 
     val core = module( "core" )
