@@ -131,7 +131,7 @@ object Dependencies {
     object logback extends SimpleModule {
       override val groupId = "ch.qos.logback"
       override val artifactIdRoot = "logback"
-      override val version = "1.2.3"
+      override val version = "1.2.6"
       override val isScala = false
       val core = module( "core" )
       val classic = module( "classic" )
