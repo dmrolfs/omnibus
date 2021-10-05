@@ -251,7 +251,7 @@ object Dependencies {
   object betterFiles extends SimpleModule {
     override val groupId = "com.github.pathikrit"
     override val artifactIdRoot = "better-files"
-    override val version = "3.6.0"
+    override val version = "3.9.1"
     val core = module( "" )
     val akka = module( "akka" )
     def all = Seq( core, akka )
