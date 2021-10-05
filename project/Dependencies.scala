@@ -156,7 +156,7 @@ object Dependencies {
   object metrics extends SimpleModule {
     override val groupId = "io.dropwizard.metrics"
     override val artifactIdRoot = "metrics"
-    override val version = "4.0.3"
+    override val version = "4.0.7"
     override val isScala = false
 
     def all = Seq( core, graphite ) ++ scala.all // ++ kamon.all
