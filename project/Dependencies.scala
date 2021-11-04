@@ -201,7 +201,7 @@ object Dependencies {
   // val offheap = "sh.den" % "scala-offheap_2.11" % "0.1"
   val fastutil = "it.unimi.dsi" % "fastutil" % "8.3.1" withSources() withJavadoc()
   val bloomFilter = "com.github.alexandrnikitin" % "bloom-filter_2.11" % "0.10.1" withSources() withJavadoc()
-  val json4sJackson = "org.json4s" %% "json4s-jackson" % "3.6.8"
+  val json4sJackson = "org.json4s" %% "json4s-jackson" % "3.6.12"
 //    val uuid = "com.eaio.uuid" % "uuid" % "3.4"
 //    val eaioUuid = "com.github.stephenc.eaio-uuid" % "uuid" % "3.4.2"
   val scalaUuid = "io.jvm.uuid" %% "scala-uuid" % "0.3.1"
