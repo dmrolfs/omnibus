@@ -207,7 +207,7 @@ object Dependencies {
   val scalaUuid = "io.jvm.uuid" %% "scala-uuid" % "0.3.1"
   val config = "com.typesafe" % "config" % "1.4.0"
   val ficus = "com.iheart" %% "ficus" % "1.4.7"
-  val shapeless = "com.chuusai" %% "shapeless" % "2.3.3" withSources() withJavadoc()
+  val shapeless = "com.chuusai" %% "shapeless" % "2.3.9" withSources() withJavadoc()
   val parboiled = "org.parboiled" %% "parboiled" % "2.1.4"
   val inflector = "org.atteo" % "evo-inflector" % "1.2.2"
   val squants = "org.typelevel"  %% "squants"  % "1.6.0"
