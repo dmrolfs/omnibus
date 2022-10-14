@@ -259,7 +259,7 @@ object Dependencies {
 
   object quality {
     val scalatest = "org.scalatest" %% "scalatest" % "3.1.2" withSources() withJavadoc()
-    val scalacheck = "org.scalacheck" %% "scalacheck" % "1.14.3"
+    val scalacheck = "org.scalacheck" %% "scalacheck" % "1.17.0"
 
     val cats = "com.ironcorelabs" %% "cats-scalatest" % "2.2.0"
     val inmemory = "com.github.dnvriend" %% "akka-persistence-inmemory" % "2.5.1.0"
