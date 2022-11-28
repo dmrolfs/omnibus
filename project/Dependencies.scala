@@ -218,7 +218,7 @@ object Dependencies {
   val scopt = "com.github.scopt" %% "scopt" % "3.5.0"
   val pyrolite = "net.razorvine" % "pyrolite" % "4.19"
   val msgpack = "org.velvia" %% "msgpack4s" % "0.6.0"
-  val prettyprint = "com.lihaoyi" %% "pprint" % "0.5.9"
+  val prettyprint = "com.lihaoyi" %% "pprint" % "0.8.1"
 
   val hadoopClient = "org.apache.hadoop" % "hadoop-client" % "2.8.0" intransitive // exclude( "log4j", "log4j" )
 
