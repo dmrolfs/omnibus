@@ -212,7 +212,7 @@ object Dependencies {
   val inflector = "org.atteo" % "evo-inflector" % "1.2.2"
   val squants = "org.typelevel"  %% "squants"  % "1.6.0"
   val lang = "org.apache.commons" % "commons-lang3" % "3.5"
-  val codec = "commons-codec" % "commons-codec" % "1.14"
+  val codec = "commons-codec" % "commons-codec" % "1.16.0"
   val math3 = "org.apache.commons" % "commons-math3" % "3.6.1" withSources() withJavadoc()
 //    val suanshu = "com.numericalmethod" % "suanshu" % "3.4.0" intransitive()  // don't want to use due to $$$
   val scopt = "com.github.scopt" %% "scopt" % "3.5.0"
