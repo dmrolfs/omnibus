@@ -205,7 +205,7 @@ object Dependencies {
 //    val uuid = "com.eaio.uuid" % "uuid" % "3.4"
 //    val eaioUuid = "com.github.stephenc.eaio-uuid" % "uuid" % "3.4.2"
   val scalaUuid = "io.jvm.uuid" %% "scala-uuid" % "0.3.1"
-  val config = "com.typesafe" % "config" % "1.4.0"
+  val config = "com.typesafe" % "config" % "1.4.3"
   val ficus = "com.iheart" %% "ficus" % "1.4.7"
   val shapeless = "com.chuusai" %% "shapeless" % "2.3.3" withSources() withJavadoc()
   val parboiled = "org.parboiled" %% "parboiled" % "2.1.4"
