@@ -17,7 +17,7 @@ libraryDependencies ++=
   Seq(
     "org.scala-lang.modules" %% "scala-xml" % "1.3.0",
     "com.github.dmrolfs" %% "shapeless-builder" % "1.0.1",
-    "commons-codec" % "commons-codec" % "1.14",
+    "commons-codec" % "commons-codec" % "1.16.1",
     akka.actor,
     json4sJackson,
     math3,
